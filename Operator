@@ -1,0 +1,58 @@
+a=True
+b=False
+print("a=",a,"b=",b)
+
+c=a and b 
+print("a and b=",c)
+
+d=a or b
+print("a or b=",d)
+
+e=not a 
+print("not a=",e)
+print()
+
+m=2
+n=3
+print("m=",m,"n=",n)
+print("m+n=",m+n)
+print("m-n=",m-n)
+print("m*n=",m*n)
+print("m/n",m/n)
+print("m%n",m%n)
+print("m**n",m**n)
+print()
+
+o="a"
+p="b"
+print("o=",o,"p=",p)
+print("o+p",o+p)
+print("o+p",o+"b")
+print("o*2",o*2)
+print()
+
+g=m>=n
+print("g=m>=n,g=",g)
+g=m==n
+print("g=m==n,g=",g)
+g=m<=n
+print("g=m<=n,g=",g)
+g=m!=n
+print("g=m!=n,g=",g)
+print()
+
+e=5
+f=6
+print("e=",e,"f=",f)
+e=f
+print("e=f",e)
+e+=2
+print("e+=2",e)
+f-=2
+print("f-=2",f)
+e/=2
+print("e/=2",e)
+f%=2
+print("f%=2",f)
+e**=2
+print("e**=2",e)
