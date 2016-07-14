@@ -1,0 +1,21 @@
+From http://www.codedata.com.tw/python/python-tutorial-the-1st-class-1-preface/
+Notice
+
+1.Cpython
+  ** Write in C.
+  ** Compiles Python code to intermediate bytecode.
+  ** Provides the highest level of compatibility with Python packages and C extension modules.
+
+2.PyPy
+  ** Features a Just-in-time(JIT)compiler.
+  ** Aims for maximum compatibility with the reference CPython implementation while improving performance.
+  
+3.Jython
+  ** An implementation of python for the JVM.
+  ** Compiles Python code to Java byte code.
+  ** Can import and use any Java class the same as a Python module.
+
+4.IronPython
+  ** An open-source implementation of the Python programming language which is tightly integrated with the .NET Framework.
+  ** Can use the .NET Framework and Python libraries.
+  ** Other .NET languages  can use Python code just as easily.
