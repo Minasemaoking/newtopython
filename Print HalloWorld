@@ -7,11 +7,12 @@ if len(sys.argv)<2:
 	print('no argument')
 	sys.exit()
 
-	
 ##print file name	
 print("File:"+sys.argv[0])
+
 ##print string ,when sys.argv>1
 print("Hello!"+sys.argv[1])
+
 print()
 input=input("Hi!")
 print("Hi!"+input)
